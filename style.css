@@ -1,0 +1,712 @@
+body{
+    background-color: #F3F7FD;
+}
+/* ***********about Section Start************** */
+.about-area {
+    background: #F3F7FD;
+    padding: 380px 0 126px;
+    margin-top: -287px;
+}
+.about-left {
+    position: relative;
+}
+.about-thumb img {
+    width: 100%;
+}
+.about-shape {
+    position: absolute;
+    right: 76px;
+    bottom: 27px;
+    animation: bounceleft 4s linear infinite;
+}
+.about-conter-box {
+    background: #0C59DB;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+.about-conter-box:before {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 170px;
+    left: -2px;
+    top: -57px;
+    background: #1164ED;
+    border-radius: 50%;
+    z-index: -1;
+}
+.about-counter-title h4 {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    padding: 0 0 16px 0;
+    display: inline-block;
+    font-family: "Rajdhani";
+}
+.about-counter-title h4:before {
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 2px;
+    left: 24px;
+    bottom: 4px;
+    background: #fff;
+}
+.about-counter-title span {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    padding: 0 0 16px 0;
+    display: inline-block;
+    font-family: "Rajdhani";
+}
+.about-counter-title p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Rajdhani";
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.about-right {
+    position: relative;
+}
+.section-title {
+    margin-bottom: 42px;
+}
+.section-title h4 {
+    font-size: 18px;
+    color: #0c5adb;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+.section-title h1 {
+    font-size: 38px;
+    color: #041424;
+    font-weight: 700;
+    line-height: 40px;
+}
+.section-title p {
+    margin: 19px 0 0;
+}
+.single-about-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 29px;
+}
+
+.about-icon {
+    line-height: 66px;
+    text-align: center;
+    width: 80px;
+    height: 66px;
+    border-radius: 10px;
+    transition: 0.5s;
+    filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+    background-color: #ffff;
+}
+.about-icon-box-content h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.about-area .toptech-button a {
+    margin-top: 12px;
+}
+.toptech-button a {
+    padding: 12px 27px 12px 27px;
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    color: #fff;
+    background: #0c5adb;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #0c5adb;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 8px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.toptech-button a:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.toptech-button i {
+    display: inline-block;
+    color: #fff;
+    font-size: 21px;
+    margin-left: 12px;
+    position: relative;
+    top: 2px;
+    transition: 0.5s;
+}
+
+
+
+
+
+.heading{
+    color: #0c5adb;
+}
+.left-image{
+    position: relative;
+}
+.about-shape {
+    position: absolute;
+    right: 56px;
+    bottom: 27px;
+    animation: bounceleft 4s linear infinite;
+}
+
+@keyframes bounceleft {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-40px); /* Left move */
+    }
+}
+.about-shape-two {
+    position: absolute;
+    bottom: 0;
+    left: 239px;
+    animation: bounceleft 4s linear infinite;
+}
+
+.about-icon-container{
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-btn{
+    padding: 10px 20px;
+    background-color: #0c5adb;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+/* From Uiverse.io by satyamchaudharydev */ 
+.about-btn {
+    --primary-color: #0c5adb;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 600;
+    margin-top: 40px;
+}
+  
+  .about-btn .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-btn .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .about-btn .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .about-btn:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .about-btn:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .about-btn:hover .arrow:before {
+    right: 0;
+  }
+  /* ***********about Section End************** */
+  /* ***********IT Support Section Start************** */
+.IT-Services{
+    background-image: url('assets/service-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0 100px;
+
+}
+.Business-section-title.center {
+    margin-bottom: 52px;
+}
+.Business-section-title h4 {
+    font-size: 18px;
+    color: #0c5adb;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+.single-services-box {
+    padding: 37px 0 30px 40px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.service-icon-thumb {
+    position: relative;
+}
+.service-number h1 {
+    background: #E6EEFB;
+    position: absolute;
+    right: 0;
+    top: 33px;
+    transition: 0.5s;
+    font-size: 26px;
+    line-height: 50px;
+    color: #0c5adb;
+    font-weight: 600;
+    font-family: "Rajdhani";
+    padding: 0 14px 0 28px;
+    border-radius: 30px 0 0 30px;
+    margin: 0;
+}
+.service-icon-thumb:before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -7px;
+    width: 40px;
+    height: 40px;
+    background: #E6EEFB;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 100%;
+}
+.service-content a {
+    display: inline-block;
+    transition: .5s;
+    font-size: 19px;
+    letter-spacing: -10px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Rajdhani";
+}
+.service-content i {
+    display: inline-block;
+    color: #0B59DB;
+    font-size: 22px;
+    transition: 0.5s;
+}
+    /* ***********IT SupportSection End************** */
+     /* ***********Counter Start************** */
+     .counter-area {
+        background: url(assets/counter-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 75px 0 63px;
+    }
+    .counter-box {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .counter-content h4 {
+        font-size: 56px;
+        color: #fff;
+        font-weight: 700;
+        display: inline-block;
+        font-family: "Rajdhani";
+    }
+    .counter-content span {
+        font-size: 56px;
+        color: #fff;
+        font-weight: 700;
+        display: inline-block;
+        font-family: "Rajdhani";
+    }
+    .counter-content p {
+        font-size: 15px;
+        color: #fff;
+        opacity: 0.6;
+        text-transform: uppercase;
+        margin: 4px 0 0;
+    }
+
+      /* ***********Counter End************** */
+       /* ***********Portfolio Start************** */
+       .portfolio-area {
+        background: url(assets/portfolio-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 118px 0 100px;
+    }
+    .portfolio-section-title.center {
+        margin-bottom: 52px;
+    }
+    .portfolio-section-title h4 {
+        font-size: 18px;
+        color: #0c5adb;
+        font-weight: 600;
+        margin: 0 0 24px;
+    }
+    .portfolio-section-title h1 {
+        font-size: 42px;
+        color: #041424;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .portfolio_menu {
+        text-align: center;
+        padding: 0 0 45px;
+    }
+    a, i, cite, em, var, address, dfn, ol, li, ul {
+        font-style: normal;
+        font-weight: 400;
+        list-style: none;
+    }
+     .portfolio_menu ul li {
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+        padding: 10px 32px;
+        color: #021524;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+        font-weight: 500;
+    }
+    .current_menu_item {
+        color: #2E6ADC !important;
+    }
+    .portfolio_menu ul li:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        background: #564AC6;
+        transform: scale(0);
+        border-radius: 30px;
+        transition: .5s;
+    }
+    .single-portfolio-box {
+        position: relative;
+    }
+    .portfolio-content {
+        background: #fff;
+        padding: 20px 26px 17px;
+        display: flex;
+        align-items: center;
+        border-left: 7px solid #0C59DB;
+        position: absolute;
+        bottom: -65px;
+        width: 75%;
+        border-radius: 0 5px 5px 0;
+    }
+    .portfolio-thumb img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .portfolio-number h1 {
+        font-size: 76px;
+        font-weight: 700;
+        font-family: "Rajdhani";
+        transition: .3s;
+        position: relative;
+        margin: 0 16px 0 0;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #DADDDF;
+    }
+    .portfolio-title a {
+        transition: .3s;
+        font-size: 20px;
+        line-height: 28px;
+        color: #041424;
+        font-weight: 600;
+        font-family: "Rajdhani";
+        display: inline-block;
+        position: relative;
+       text-decoration: none;
+    }
+    .portfolio-title a i {
+        display: inline-block;
+        background: #0B59D7;
+        color: #fff;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        border-radius: 50% 50% 50% 0;
+        text-align: center;
+        position: absolute;
+        top: -84px;
+        right: -72px;
+        opacity: 0;
+        transition: 0.5s;
+    }
+  
+        /* ***********Portfolio End************** */
+         /* ***********Working process Start************** */
+         .working-proces-area {
+            background: #021533;
+            padding: 247px 0 90px;
+            margin-top: -163px;
+        }
+        .working-proces-area .working-proces-section-title.center {
+            margin-bottom: 72px;
+        }
+        .working-proces-section-title h4 {
+            font-size: 18px;
+            color: #0c5adb;
+            font-weight: 600;
+            margin: 0 0 24px;
+        }
+        .working-proces-section-title h1 {
+            font-size: 42px;
+            color: #ffff;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        .working-process-box {
+            text-align: center;
+            padding: 0 50px 0;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .working-process-box:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: -81px;
+            top: 73px;
+            background: url(assets/porcess-shape1.png);
+            background-repeat: no-repeat;
+        }
+        .process-thumb {
+            position: relative;
+            margin-bottom: 44px;
+        }
+        .working-process-box.before-transprent:before {
+            background: transparent;
+        }
+        .process-thumb:before {
+            position: absolute;
+            content: "";
+            width: 244px;
+            height: 244px;
+            left: 6px;
+            top: -13px;
+            border: 2px dashed #0c5adb;
+            border-radius: 50%;
+            animation: rotateme 20s linear infinite;
+        }
+        @keyframes rotateme {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .process-number span {
+            position: absolute;
+            left: 1%;
+            top: 13%;
+            z-index: 1;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            border-radius: 50px;
+            display: inline-block;
+            font-size: 18px;
+            color: #fff;
+            background-color: #0c5adb;
+            transition: .5s;
+        }
+        .process-content h4 {
+            font-size: 23px;
+            color: #fff;
+            margin: 20px 0 10px;
+            transition: .5s;
+        }
+        .process-content p {
+            opacity: 0.502;
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Nunito";
+            text-align: center;
+            transition: .5s;
+        }
+        .working-process-box.after-transprent:after {
+            background: transparent;
+        }
+        .working-process-box:after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: -81px;
+            top: 73px;
+            background: url(assets/porcess-shape2.png);
+            background-repeat: no-repeat;
+        }
+        .process-number.two span {
+            left: 1%;
+            top: 69%;
+        }
+
+          /* ***********working Process End************** */
+          /* ***********Testimonials start************** */
+          .testimonial-area {
+            background: url(assets/testi-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 110px 0 102px;
+        }
+        .testi-section-title h4 {
+            font-size: 18px;
+            color: #0c5adb;
+            font-weight: 600;
+            margin: 0 0 24px;
+        }
+        .testi-section-title h1 {
+            font-size: 42px;
+            color: #041424;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        .testi-desc p {
+            font-size: 20px;
+            line-height: 34px;
+            color: #041424;
+            width: 65%;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .testi-rating {
+            margin-top: 20px;
+        }
+        .testi-rating ul {
+            font-style: normal;
+            font-weight: 400;
+            list-style: none;
+        }
+        .testi-rating ul li {
+            display: inline-block;
+        }
+        .testi-rating ul li i {
+            color: #FF9100;
+            margin: 0 3px;
+        }
+        .testi-author h4:before {
+            position: absolute;
+            content: "";
+            width: 28px;
+            height: 2px;
+            left: 0;
+            right: 0;
+            top: -25px;
+            background: #0B59D7;
+            margin: auto;
+        }
+        .testi-author h4 {
+            font-size: 24px;
+            margin: 53px 0 5px;
+            font-weight: 600;
+            position: relative;
+        }
+        .testimonial-area .owl-prev {
+            display: inline-block;
+            position: absolute;
+            left: 14px;
+            top: 31%;
+        }
+        .testimonial-area .owl-prev i {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+            background-color: #ffffff;
+            line-height: 60px;
+            color: #0c5adb;
+            font-size: 20px;
+            transition: 0.5s;
+            text-align: center;
+            line-height: 65px;
+        }
+        .testimonial-area .owl-next {
+            display: inline-block;
+            position: absolute;
+            right: 9px;
+            top: 31%;
+        }
+        .testimonial-area .owl-next i {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            filter: drop-shadow(0px 10px 10px rgba(207, 218, 235, 0.2));
+            background-color: #ffffff;
+            line-height: 65px;
+            color: #0c5adb;
+            font-size: 20px;
+            transition: 0.5s;
+            text-align: center;
+        }
+      
+          /* ***********Testimonials End************** */
