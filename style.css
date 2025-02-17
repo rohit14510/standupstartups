@@ -710,3 +710,109 @@ body{
         }
       
           /* ***********Testimonials End************** */
+          /* ***********Video Start************** */
+          .video-area {
+            padding: 141px 0px 159px;
+            background: url(assets/video-bg.jpg) 0% 0% / cover no-repeat;
+        }
+        .section-title.center {
+            margin-bottom: 52px;
+        }
+        .section-title h4 {
+            font-size: 18px;
+            color: rgb(12, 90, 219);
+            font-weight: 600;
+            margin: 0px 0px 24px;
+        }
+        .video-area .section-title h1 {
+            color: rgb(255, 255, 255);
+        }
+        .video-button {
+            text-align: center;
+        }
+        .video-button i {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            line-height: 72px;
+            font-size: 25px;
+            background: rgb(11, 89, 215);
+            border-radius: 50%;
+            animation: 1s linear 0s infinite normal none running ripple-blue;
+            transition: 0.5s;
+        }
+        @keyframes ripple-blue {
+            0% {
+                box-shadow: 0 0 0 0 rgba(11, 89, 215, 0.5);
+            }
+            100% {
+                box-shadow: 0 0 0 15px rgba(11, 89, 215, 0);
+            }
+        }
+        
+          /* ***********Video End************** */
+            /* ***********Contact start************** */
+            .contact-info-area {
+                background: url(assets/contact-info-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                padding: 123px 0 125px;
+            }
+            .contact-info-box {
+                background: #fff;
+                padding: 29px 28px 27px;
+                border-radius: 5px;
+                display: flex
+            ;
+                align-items: center;
+                border: 1px solid #0B59D7;
+                transition: 0.5s;
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                gap: 29px;
+            }
+            .contact-info-box:before {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: #0B59D7;
+                border-radius: 5px;
+                transition: 0.5s;
+                z-index: -1;
+            }
+            .contact-info-icon i {
+                display: inline-block;
+                color: #0c5adb;
+                border: 2px solid #0c5adb;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 56px;
+                font-size: 22px;
+                transition: 0.5s;
+            }
+            .contact-info-content h4 {
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0;
+                padding: 0 0 11px 0;
+                transition: 0.5s;
+            }
+            .contact-info-content p {
+                font-size: 20px;
+                color: #0c59d7;
+                font-weight: 600;
+                font-family: "Rajdhani";
+                margin: 0;
+                padding: 0;
+                transition: 0.5s;
+            }
+              /* ***********contact End************** */
